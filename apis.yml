@@ -1,0 +1,32 @@
+aid: vatcomply-com
+name: VATComply.com
+description: "Exchange rates, geolocation and VAT number validation"
+url: https://www.vatcomply.com/documentation
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Currency Exchange"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Currency Exchange
+  - Public APIs
+apis:
+  - name: VATComply.com
+    description: "Exchange rates, geolocation and VAT number validation"
+    humanURL: https://www.vatcomply.com/documentation
+    baseURL: https://www.vatcomply.com/documentation
+    tags:
+      - Currency Exchange
+    properties:
+      - type: Documentation
+        url: https://www.vatcomply.com/documentation
+common:
+  - type: Website
+    url: https://www.vatcomply.com/documentation
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
