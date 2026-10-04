@@ -35,11 +35,11 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Currency Exchange
   - Public APIs
+  - Exchange Rates
 apis:
   - name: VATComply.com
     description: "Exchange rates, geolocation and VAT number validation"
     humanURL: https://www.vatcomply.com/documentation
-    baseURL: https://www.vatcomply.com/documentation
     tags:
       - Currency Exchange
     properties:
